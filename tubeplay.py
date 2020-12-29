@@ -1,4 +1,5 @@
-from pytube import YouTube
+import pytube
+from pytube import *
 import PySimpleGUI as Pysg
 import os
 import platform
