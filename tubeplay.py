@@ -29,6 +29,7 @@ while True:
 
     url = valores["Link"]
     try:
+        Pysg.Popup("Fazendo Download...")
         YouTube(url).streams.first().download(caminho_download)
         Pysg.Popup("Sucesso!", "O vídeo foi baixado em "+str(caminho_download))
     except:
