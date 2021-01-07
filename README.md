@@ -35,7 +35,7 @@
 <img src="media/imagens/screen_main2.png" >
 <br>
 <p class="Texto">
-  Se der certo, aparecerá uma tela disendo que o Download foi concluído.
+  Se der certo, aparecerá uma tela dizendo que o Download foi concluído.
 </p>
 <br>
 <img src="media/imagens/screen_sucesso.png">
