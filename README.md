@@ -1,6 +1,4 @@
-<h1 class="Texto">
-            Py_Youtube-Downloade
-</h1>
+# Py_Youtube-Download
 
 <a href="https://github.com/AlexandreSantAnaLangunno/Py_Youtube-Download">
 <picture>
@@ -28,21 +26,21 @@
 <div class="Modo_de_Usar">
 <img src="media/imagens/screen_main.png" >
 <br>
-<p class="Texto">
-            Coloque o Link do Video
-</p>
+
+Coloque o Link do Video
+
 <br>
 <img src="media/imagens/screen_main2.png" >
 <br>
-<p class="Texto">
-  Se der certo, aparecerá uma tela dizendo que o Download foi concluído.
-</p>
+
+Se der certo, aparecerá uma tela dizendo que o Download foi concluído.
+
 <br>
 <img src="media/imagens/screen_sucesso.png">
 <br>
-<p class="Texto">
-    Caso ao contrario aparecerá uma tela disendo que algo deu errado. 
-</p>
+
+Caso ao contrario aparecerá uma tela disendo que algo deu errado. 
+
 <br>
 <img src="media/imagens/screen_error.png" alt="">
 <br>
@@ -56,9 +54,7 @@
 
 <br>
 
-<p class="Texto">
-                Participantes:
-</p>
+Participantes:
 
 <a href="https://github.com/OrlatoDev">
    <img src="media/imagens/OrlatoDev.jfif" alt="Orlato Dev" class="Participantes">
@@ -67,3 +63,5 @@
 <a href="http://github.com/AlexandreSantAnaLangunno">
 <img src="media/imagens/Alexandre.png" alt="Alexandre" id="Alexandre" class="Participantes">
 </a>
+
+
