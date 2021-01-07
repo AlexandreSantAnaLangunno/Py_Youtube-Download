@@ -49,7 +49,7 @@ Caso ao contrario aparecerá uma tela disendo que algo deu errado.
 </div>
 
 <p class="Texto">
-                 Gostou de uma estrela no repositorio do <a href="https://github.com/AlexandreSantAnaLangunno/Py_Youtube-Download"> Github </a>
+                 Instale o App pelo site <a href="https://alexandresantanalangunno.github.io/Py_Youtube-Download/"> https://alexandresantanalangunno.github.io/Py_Youtube-Download/ </a>
 </p>
 
 <br>
