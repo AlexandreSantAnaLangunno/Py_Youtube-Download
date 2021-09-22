@@ -57,11 +57,11 @@ Caso ao contrario aparecerá uma tela disendo que algo deu errado.
 Participantes:
 
 <a href="https://github.com/OrlatoDev">
-   <img src="media/imagens/OrlatoDev.jfif" alt="Orlato Dev" class="Participantes">
+   <img src="media/imagens/OrlatoDev.jfif" alt="Orlato Dev" class="Participantes" width="300px">
 </a>
 
 <a href="http://github.com/AlexandreSantAnaLangunno">
-<img src="media/imagens/Alexandre.png" alt="Alexandre" id="Alexandre" class="Participantes">
+<img src="media/imagens/Alexandre.png" alt="Alexandre" id="Alexandre" class="Participantes" width="300px">
 </a>
 
 
