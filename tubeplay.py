@@ -30,7 +30,7 @@ def TemaPadrão():
     layout_padrão = [
         [Pysg.MenuBar(nav_bar)],
         [Pysg.Text('Link do Vídeo: '), Pysg.Input(key = 'Link')],
-        [Pysg.Text("O download será realizado em "+str(caminho_download))],
+        [Pysg.Text("O download será realizado em "+ str(caminho_download))],
         [Pysg.Button(button_text = "Baixar")],
     ]
 
@@ -43,7 +43,7 @@ def TemaPadrão():
         if evento == 'Baixar':
             try:
                 Pysg.PopupNoTitlebar('Baixando...')
-                YouTube(url).streams.first().download(caminho_download)
+                YouTube(url).streams.get_by_highest_resolution().download(caminho_download)
                 Pysg.Popup('Sucesso! O vídeo foi baixado em: '+str(caminho_download))
             except:
                 Pysg.Popup('Ops... ', "Um erro inesperado ocorreu.")
@@ -85,7 +85,7 @@ def Tema_Black():
         if eventos == 'Baixar':
             try:
                 Pysg.PopupNoTitlebar('Baixando...')
-                YouTube(url).streams.first().download(caminho_download)
+                YouTube(url).streams.get_by_highest_resolution().download(caminho_download)
                 Pysg.Popup('Sucesso! O vídeo foi baixado em: '+str(caminho_download))
             except:
                 Pysg.Popup('Ops... ', "Um erro inesperado ocorreu.")
@@ -128,7 +128,7 @@ def Tema_Dark():
         if eventos == 'Baixar':
             try:
                 Pysg.PopupNoTitlebar('Baixando...')
-                YouTube(url).streams.first().download(caminho_download)
+                YouTube(url).streams.get_by_highest_resolution().download(caminho_download)
                 Pysg.Popup('Sucesso! O vídeo foi baixado em: '+str(caminho_download))
             except:
                 Pysg.Popup('Ops... ', "Um erro inesperado ocorreu.")
@@ -171,7 +171,7 @@ def Tema_Light():
         if eventos == 'Baixar':
             try:
                 Pysg.PopupNoTitlebar('Baixando...')
-                YouTube(url).streams.first().download(caminho_download)
+                YouTube(url).streams.get_by_highest_resolution().download(caminho_download)
                 Pysg.Popup('Sucesso! O vídeo foi baixado em: '+str(caminho_download))
 
             except:
